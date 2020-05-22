@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1333.534" height="753.353" viewBox="0 0 1333.534 753.353">
+  <g id="shapies" transform="translate(-15.466 -910.647)">
+    <g id="hexagonal" transform="translate(27.674 910.647) rotate(42)" opacity="0.153">
+      <path id="hexagonal-2" data-name="hexagonal" d="M19.766,34.561l-4.08-7.231a1.84,1.84,0,0,0-1.6-.945H5.927a1.84,1.84,0,0,0-1.6.945L.248,34.561a1.93,1.93,0,0,0,0,1.891l4.08,7.232a1.84,1.84,0,0,0,1.6.945h8.159a1.84,1.84,0,0,0,1.6-.945l4.08-7.232A1.93,1.93,0,0,0,19.766,34.561Z" transform="translate(0 -26.385)"/>
+    </g>
+    <g id="hexagonal-3" data-name="hexagonal" transform="translate(415.529 985.345) rotate(11)" opacity="0.042">
+      <path id="hexagonal-4" data-name="hexagonal" d="M35.565,41.1,28.224,28.086a3.31,3.31,0,0,0-2.878-1.7H10.664a3.311,3.311,0,0,0-2.878,1.7L.445,41.1a3.473,3.473,0,0,0,0,3.4L7.786,57.511a3.311,3.311,0,0,0,2.878,1.7H25.346a3.31,3.31,0,0,0,2.878-1.7L35.565,44.5A3.473,3.473,0,0,0,35.565,41.1Z" transform="translate(0 -26.385)"/>
+    </g>
+    <g id="hexagonal-5" data-name="hexagonal" transform="translate(388.536 1315.536) rotate(-3)" opacity="0.045">
+      <path id="hexagonal-6" data-name="hexagonal" d="M13.837,32.109l-2.856-5.062a1.288,1.288,0,0,0-1.12-.662H4.149a1.288,1.288,0,0,0-1.12.662L.173,32.109a1.351,1.351,0,0,0,0,1.324L3.029,38.5a1.288,1.288,0,0,0,1.12.662H9.861a1.288,1.288,0,0,0,1.12-.662l2.856-5.063A1.351,1.351,0,0,0,13.837,32.109Z" transform="translate(0 -26.385)"/>
+    </g>
+    <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(998 974)" fill="none" stroke="rgba(112,112,112,0.2)" stroke-width="4">
+      <circle cx="10.5" cy="10.5" r="10.5" stroke="none"/>
+      <circle cx="10.5" cy="10.5" r="8.5" fill="none"/>
+    </g>
+    <g id="Ellipse_3" data-name="Ellipse 3" transform="translate(1318 1074)" fill="none" stroke="rgba(112,112,112,0.2)" stroke-width="4" opacity="0.384">
+      <circle cx="15.5" cy="15.5" r="15.5" stroke="none"/>
+      <circle cx="15.5" cy="15.5" r="13.5" fill="none"/>
+    </g>
+    <g id="Ellipse_2" data-name="Ellipse 2" transform="translate(718 1403)" fill="#fff" stroke="rgba(112,112,112,0.2)" stroke-width="4">
+      <circle cx="10.5" cy="10.5" r="10.5" stroke="none"/>
+      <circle cx="10.5" cy="10.5" r="8.5" fill="none"/>
+    </g>
+    <circle id="Ellipse_4" data-name="Ellipse 4" cx="6" cy="6" r="6" transform="translate(1066 1127)" opacity="0.18"/>
+    <circle id="Ellipse_5" data-name="Ellipse 5" cx="8.5" cy="8.5" r="8.5" transform="translate(206 1647)" opacity="0.18"/>
+    <g id="hexagonal-7" data-name="hexagonal" transform="translate(1049.575 1506.719) rotate(24)" opacity="0.167">
+      <path id="hexagonal-8" data-name="hexagonal" d="M19.766,34.561l-4.08-7.231a1.84,1.84,0,0,0-1.6-.945H5.927a1.84,1.84,0,0,0-1.6.945L.248,34.561a1.93,1.93,0,0,0,0,1.891l4.08,7.232a1.84,1.84,0,0,0,1.6.945h8.159a1.84,1.84,0,0,0,1.6-.945l4.08-7.232A1.93,1.93,0,0,0,19.766,34.561Z" transform="translate(0 -26.385)"/>
+    </g>
+  </g>
+</svg>

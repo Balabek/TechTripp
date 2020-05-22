@@ -1,0 +1,470 @@
+/*
+█▀▄▀█ █▀▀ █▀▄ █ ▄▀█   █▀█ █░█ █▀▀ █▀█ █ █▀▀ █▀
+█░▀░█ ██▄ █▄▀ █ █▀█   ▀▀█ █▄█ ██▄ █▀▄ █ ██▄ ▄█
+*/
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+/* >>>>>>>> I M P O R T A N T ! <<<<<<<<< */
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+
+
+/* >>>>> SM/XS <<<<< */
+@media screen and (max-width: 767px){
+    #ttCollapse {
+        position: absolute;
+        width: 100%;
+        margin-top: 25px;
+        background: rgba(0,0,0,0.9);
+        border-top: 1px solid rgba(186, 186, 186, 0.53);
+        padding-bottom: 46px;
+        padding-top: 6px;
+        z-index: 22;
+    }
+
+    ul.dropdown-menu.tt_dropdown {
+        width: 100vw !important;
+    }
+
+    ul.dropdown-menu.tt_dropdown li a i {top: 3px;}
+
+}
+
+
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+/* =========== NAVBAR + HEADER ========== */
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+
+/* >>>>> SM/XS <<<<< */
+
+@media screen and (max-width: 1199px){
+    h1.slogan_text {font-size: 3.6rem;}
+}
+
+@media screen and (max-width: 991px){
+    h1.slogan_text {font-size: 2.6rem;}
+    ul.tt_main_menu li {margin-right: 0;}
+    ul.tt_main_menu li a {font-size: 0.88rem;}
+}
+
+@media screen and (max-width: 767px){
+    .tt_nav_logo {width: 70%; top: -77px;}
+    .h_banner {left: 45px;}
+
+    ul.tt_main_menu {float: left; bottom: -6px;}
+    ul.tt_main_menu li a {font-size: 1rem;}
+    a.tt_uppermost_btn.submit_ticket_btn {margin-right: 0; margin-bottom: 12px;}
+    .aux_buttons_holder {float: left; right: 14px;}
+    .tt_uppermost_btn {display: block;}
+
+    a.tt_menu_link::after {background: transparent;}
+
+    ul.dropdown-menu.tt_dropdown {padding-bottom: 12px;}
+    ul.dropdown-menu.tt_dropdown li {height: 32px !important;}
+
+}
+
+@media screen and (max-width: 740px){
+    .h_banner {width: 91%;}
+}
+
+@media screen and (max-width: 525px){
+    .h_banner {left: 25px;}
+    h1.slogan_text {font-size: 2.2rem;}
+    h3.slogan_subtext {font-size: 1.3rem;}
+}
+
+@media screen and (max-width: 440px){
+    .h_banner {left: 20px;}
+    h1.slogan_text {font-size: 2rem;}
+    h3.slogan_subtext {font-size: 1.2rem;}
+}
+
+
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+/* =========== PARTNER SLIDER ========== */
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+
+/* >>>>> SM/XS <<<<< */
+
+@media screen and (max-width: 1199px){
+    .partner_slider_stripe {width: 970px;}
+}
+
+@media screen and (max-width: 991px){
+    .partner_slider_stripe {width: 750px;}
+}
+
+@media screen and (max-width: 767px){
+    .partner_slider_stripe {border-radius: 0; width: 100%;}
+}
+
+@media screen and (max-width: 396px){
+    .partner_slider_stripe {height: 125px;}
+    .p_slide {height: 38px;}
+}
+
+
+
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+/* =========== OUR SERVICES ========== */
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+
+/* >>>>> SM/XS <<<<< */
+
+@media screen and (max-width: 620px){
+    .our_services_area {min-height: 810px;}
+}
+
+
+
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+/* =========== RECENT TRENDS ========== */
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+
+/* >>>>> SM/XS <<<<< */
+
+@media screen and (max-width: 767px){
+    .trendbox {margin-bottom: 32px;}
+    .recent_trends_area {padding-bottom: 45px;}
+}
+
+
+
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+/* =========== TESTIMONIALS SLIDER ========== */
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+
+/* >>>>> SM/XS <<<<< */
+
+@media screen and (max-width: 1144px){
+    .testimonial_box {width: 72%;}
+}
+
+@media screen and (max-width: 1088px){
+    .customer_feedback_area {min-height: 460px;}
+}
+
+@media screen and (max-width: 991px){
+    .testimonial_box {width: 80%;}
+}
+
+@media screen and (max-width: 767px){
+    .testimonial_box {top: -10px; width: 95%;}
+}
+
+@media screen and (max-width: 710px){
+    .customer_feedback_area {min-height: 515px;}
+}
+
+@media screen and (max-width: 620px){
+    h2.section_title.white_ttl_2 {font-size: 1.6rem;}
+    h2.section_title.white_ttl_2::after {font-size: 1.6rem;}
+    h2.section_title.white_ttl_2::before {font-size: 1.6rem;}
+}
+
+@media screen and (max-width: 565px){
+    .customer_feedback_area {min-height: 555px;}
+    .quote_decoration_left {opacity: 0.3; top: 64px;}
+}
+
+@media screen and (max-width: 512px){
+    .customer_feedback_area {min-height: 600px;}
+}
+
+@media screen and (max-width: 403px){
+    .customer_feedback_area {min-height: 660px;}
+}
+
+@media screen and (max-width: 365px){
+    .testimonial_holder p {font-size: 1rem;}
+    h6.testimonail_author {font-size: 1rem;}
+    ul.rating li i {font-size: 1rem;}
+
+    h2.section_title.white_ttl_2 {font-size: 1.4rem;}
+    h2.section_title.white_ttl_2::after {font-size: 1.4rem;}
+    h2.section_title.white_ttl_2::before {font-size: 1.4rem;}
+}
+
+
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+/* =========== WHY TECHTRIPP ========== */
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+
+/* >>>>> SM/XS <<<<< */
+
+@media screen and (max-width: 991px){
+    .why_techtripp_area {min-height: 1360px;}
+}
+
+@media screen and (max-width: 726px){
+    .cta_button_holder {top: 24px;}
+}
+
+@media screen and (max-width: 630px){
+    .why_box_holder {width: 100%;}
+    .cta_button_holder {margin-bottom: 75px;}
+}
+
+@media screen and (max-width: 430px){
+    .why_boxes_holder {width: 90%;}
+}
+
+
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+/* =========== GET IN TOUCH ========== */
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+
+/* >>>>> SM/XS <<<<< */
+
+@media screen and (max-width: 991px) {
+    form.tt_main_form {width: 99%;}
+}
+
+@media screen and (max-width: 767px){
+    .contact_details_holder {top: 36px;}
+    .contact_area {min-height: 880px;}
+    form.tt_main_form {width: 100%;}
+}
+
+
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+/* =========== NEWSLETTER ========== */
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+
+/* >>>>> SM/XS <<<<< */
+
+@media screen and (max-width: 991px){
+    .newsletter_input_holder {width: 85%;}
+}
+
+@media screen and (max-width: 361px){
+    h5.newsletter_title {font-size: 1.1rem;}
+}
+
+
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+/* =========== FOOTER ========== */
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+
+/* >>>>> SM/XS <<<<< */
+
+@media screen and (max-width: 991px){
+    img.tt_footer_logo {width: 200px;}
+    footer.tt_footer {min-height: 540px;}
+}
+
+@media screen and (max-width: 767px){
+    footer.tt_footer {min-height: 705px;}
+    .footer_content_holder {padding-left: 20px; padding-right: 20px;}
+    .footer_logo_holder {padding-left: 50px;}
+}
+
+@media screen and (max-width: 520px){
+    .footer_logo_holder {padding-left: 5px; width: 95%; margin: 0 auto;}
+    .f_links_holder {width: 95%; margin: 0 auto;}
+    .footer_content_holder {padding-top: 32px;}
+    footer.tt_footer {min-height: 1150px;}
+    .footer_buttons_holder {padding-top: 10px; margin-bottom: 26px;}
+}
+
+@media screen and (max-width: 444px){
+    ul.footer_socials {display: table; margin: 0 auto; float: none;}
+    .bottommost_area_holder {text-align: center; top: 60px;}
+    small.f_bottom_txt {float: none; text-align: center; top: -6px; margin-bottom: 4px;}
+}
+
+
+
+
+
+/* >>>>>> <<<<<<< */
+/*
+█ █▄░█ █▄░█ █▀▀ █▀█   █▀█ ▄▀█ █▀▀ █▀▀ █▀
+█ █░▀█ █░▀█ ██▄ █▀▄   █▀▀ █▀█ █▄█ ██▄ ▄█
+*/
+/* >>>>>> <<<<<<< */
+
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+/* =========== SERVICES / ABOUT (INNERS) ========== */
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+
+/* >>>>> L/XL <<<<< */
+
+@media screen and (min-width: 1600px){
+    a.go_top {left: 20%;}
+}
+@media screen and (min-width: 1800px){
+    a.go_top {left: 23%;}
+}
+@media screen and (min-width: 1900px){
+    a.go_top {left: 25%;}
+}
+@media screen and (min-width: 2000px){
+    a.go_top {left: 28%;}
+}
+@media screen and (min-width: 2200px){
+    a.go_top {left: 33%;}
+}
+@media screen and (min-width: 2800px){
+    a.go_top {left: 39%;}
+}
+@media screen and (min-width: 2800px){
+    a.go_top {left: 41%;}
+}
+
+
+
+/* >>>>> SM/XS <<<<< */
+
+@media screen and (max-width: 1199px){
+    .subservice_text_holder {right: 22px;}
+    p.subservcie_text {font-size: 0.9rem;}
+    ul.sub_checklist li {font-size: 0.9rem;}
+    span.huge_deco_text {left: -450px;}
+    a.go_top {left: 130px;}
+}
+
+@media screen and (max-width: 991px){
+    .subservice_text_holder {right: -5px;}
+    span.huge_deco_text {left: -475px;}
+
+    .point_number {border-right: none;}
+}
+
+@media screen and (max-width: 820px){
+    a.go_top {left: 95px;}
+}
+
+@media screen and (max-width: 767px){
+    a.go_top {display: none;}
+    ul.tt_services_pill li.active > a:before, ul.tt_services_pill li.active > a:hover:before, ul.tt_services_pill li.active > a:focus:before {
+        transform: translateX(0px);
+        border-color: transparent transparent transparent rgba(0, 70, 89, 0);
+    }
+    ul.tt_services_pill li a:before {
+        border-color: transparent transparent transparent rgba(222, 222, 222, 0);
+    }
+
+    aside.services_tabs_holder {padding-left: 18px; margin-bottom: 24px;}
+    span.huge_deco_text {display: none;}
+    .services_details_holder {left: 0; display: block; width: 96%; margin: 0 auto;}
+
+    .leftside_tech_image {margin-bottom: 32px;}
+
+    ul.sub_checklist {margin-bottom: 18px;}
+    ul.sub_checklist li {min-height: 32px;}
+
+    .about_subsection {padding-top: 6px;}
+    hr.about_separator {width: 93%;}
+}
+
+@media screen and (max-width: 600px){
+    h1.inner_title {font-size: 2.6rem;}
+}
+
+@media screen and (max-width: 575px){
+    .subservice_hex_and_icon {width: 100%;}
+    .subservice_text_holder {width: 100%; margin-bottom: 22px;}
+
+    .point_number {width: 100%; border-bottom: 1px solid #dadada; margin-bottom: 2px; padding-left: 0;}
+    .point_text {width: 100%; padding-left: 0;}
+    .point_text p {display: inline-block; height: initial; margin-top: 8px; margin-bottom: 45px;}
+
+    .about_abstract_image {height: 20rem;}
+}
+
+
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+/* =========== TRENDS (INNER) ========== */
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+
+@media screen and (max-width: 991px){
+    h4.trendbox_title {font-size: 1.3rem;}
+}
+
+@media screen and (max-width: 767px){
+    h4.trendbox_title {font-size: 1.5rem;}
+
+    .network_abstract_trends {bottom: -6px; opacity: 1;}
+}
+
+@media screen and (max-width: 360px){
+    h4.trendbox_title {font-size: 1.4rem;}
+}
+
+
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+/* =========== BLOG SOLO THREAD (INNER) ========== */
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+
+@media screen and (max-width: 991px){
+    button.share_news_btn {font-size: 0.8rem;}
+    button.share_news_btn i {font-size: 0.9rem;}
+}
+
+@media screen and (max-width: 767px){
+    .trend_details_holder {display: block; width: 93%; margin: 0 auto;}
+}
+
+@media screen and (max-width: 725px){
+    .share_button_holder {width: 17%;}
+}
+
+@media screen and (max-width: 600px){
+    .share_button_holder {width: 24%;}
+}
+
+@media screen and (max-width: 430px){
+    button.back_to_all_trends_btn {width: 165px; font-size: 0.9rem;}
+}
+
+@media screen and (max-width: 399px){
+    .share_button_holder {width: 20%;}
+    button.share_news_btn {font-size: 0; text-align: center;}
+    button.share_news_btn i {font-size: 1.247rem; float: none; top: 0;}
+}
+
+
+
+
+
+
+
+
+
+
+
