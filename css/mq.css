@@ -438,6 +438,7 @@
 
 @media screen and (max-width: 767px){
     .trend_details_holder {display: block; width: 93%; margin: 0 auto;}
+    .policies_details_holder {display: block; width: 93%; margin: 0 auto;}
 }
 
 @media screen and (max-width: 725px){
@@ -447,6 +448,15 @@
 @media screen and (max-width: 600px){
     .share_button_holder {width: 24%;}
 }
+
+@media screen and (max-width: 520px){
+    .bottommost_area_holder.minified_bottommost {top: -3px;}
+}
+
+@media screen and (max-width: 444px){
+    .bottommost_area_holder.minified_bottommost {top: -10px;}
+}
+
 
 @media screen and (max-width: 430px){
     button.back_to_all_trends_btn {width: 165px; font-size: 0.9rem;}

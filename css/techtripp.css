@@ -2442,6 +2442,63 @@ button.back_to_all_trends_btn:focus {color: #fff; background: #99CA3D;}
 
 
 
+/* =========================== */
+/* ==== About (inner) ==== */
+/* =========================== */
+
+.policies_general_area {
+    min-height: 800px;
+    background: #fff;
+    padding-top: 55px;
+    padding-bottom: 55px;
+}
+
+.policies_general_content {
+    height: auto;
+}
+
+.inner_hero_area.policies {
+    min-height: 100px;
+    width: 100%;
+    background: #000;
+}
+
+.policies_details_holder {
+    padding-top: 32px;
+}
+
+footer.tt_footer.minified_footer {
+    min-height: 75px;
+    height: auto;
+    width: 100%;
+    background: url('../img/footer_bgd.png') center center no-repeat;
+    background-size: cover;
+}
+
+.bottommost_area_holder.minified_bottommost{
+    position: relative;
+    top: -25px;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
