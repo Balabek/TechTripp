@@ -192,6 +192,70 @@
                                 things right. Otherwise, there isn’t any problem.
                             </p>
                         </article>
+                        <h2 class="blog_subtitle">Key Considerations</h2>
+                        <article class="blog_details">
+                            <p>
+                                Any data lake design should incorporate a metadata storage strategy to enable business users to
+                                search, locate and learn about the datasets that are available in the lake. While traditional data
+                                warehousing stores a fixed and static set of meaningful data definitions and characteristics within
+                                the relational storage layer, data lake storage is intended to support the application of schema at
+                                read time with flexibility. However, this means that a separate storage layer is required to house
+                                cataloging metadata that represents technical and business meaning. While organizations sometimes
+                                simply accumulate content in a data lake without a metadata layer, this is a recipe for an unmanageable
+                                data swamp instead of a useful data lake. There are a wide range of approaches and solutions to ensure
+                                that appropriate metadata is created and maintained. Here are some important principles and patterns to
+                                keep in mind. Single data set can have multiple metadata layers dependent on use cases. e.g. Hive Metastore,
+                                Apache Glue etc. Same data can be exported to some NoSQL database which would have different schema.
+                            </p>
+                        </article>
+                        <div class="additional_media_content">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <div style="padding:43.75% 0 0 0;position:relative;">
+                                    <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/9572603?color=03829B&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+                                </div><script src="https://player.vimeo.com/api/player.js"></script>
+                            </div>
+                        </div>
+
+                        <h2 class="blog_subtitle">Data Processing</h2>
+                        <article class="blog_details">
+                            <p>
+                                Once you have the raw layer of immutable data in the lake, you will need to create multiple
+                                layers of processed data to enable various use cases in the organization. These are examples
+                                of the structured storage described earlier in this blog series. Typical operations required to
+                                create these structured data stores involve:
+                            </p>
+                            <ul class="blog_checklist">
+                                <li><span>Combining different datasets (i.e. joins)</span></li>
+                                <li><span>Denormalization</span></li>
+                                <li><span>Cleansing, deduplication, householding</span></li>
+                                <li><span>Deriving computed data fields</span></li>
+                            </ul>
+                            <p>
+                                For some specialized use cases (think high performance data warehouses), you may need to run
+                                SQL queries on petabytes of data and return complex analytical results very quickly. In those
+                                cases, you may need to ingest a portion of your data from your lake into a column store platform.
+                                Examples of tools to accomplish this would be Google BigQuery, Amazon Redshift or Azure SQL Data
+                                Warehouse.
+                            </p>
+                        </article>
+
+                        <h2 class="blog_subtitle">Enforce a Metadata Requirement</h2>
+                        <article class="blog_details">
+                            <p>
+                                Any data lake design should incorporate a metadata storage strategy to enable business users to
+                                search, locate and learn about the datasets that are available in the lake. While traditional data
+                                warehousing stores a fixed and static set of meaningful data definitions and characteristics within
+                                the relational storage layer, data lake storage is intended to support the application of schema at
+                                read time with flexibility. However, this means that a separate storage layer is required to house
+                                cataloging metadata that represents technical and business meaning. While organizations sometimes
+                                simply accumulate content in a data lake without a metadata layer, this is a recipe for an unmanageable
+                                data swamp instead of a useful data lake. There are a wide range of approaches and solutions to ensure
+                                that appropriate metadata is created and maintained. Here are some important principles and patterns to
+                                keep in mind. Single data set can have multiple metadata layers dependent on use cases. e.g. Hive Metastore,
+                                Apache Glue etc. Same data can be exported to some NoSQL database which would have different schema.
+                            </p>
+                        </article>
+
                         <div class="blog_bottommost_holder">
                             <div class="trend_share_options">
                                 <section class="col-md-2 col-sm-3 col-xs-4 share_button_holder">

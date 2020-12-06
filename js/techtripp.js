@@ -31,7 +31,7 @@ $(document).ready(function(){
             {
                 breakpoint: 767,
                 settings: {
-                    arrows: false,
+                    arrows: true,
                     dots: false,
                     slidesToShow: 3,
                     slidesToScroll: 1
@@ -41,9 +41,19 @@ $(document).ready(function(){
             {
                 breakpoint: 525,
                 settings: {
-                    arrows: false,
+                    arrows: true,
                     dots: false,
                     slidesToShow: 2,
+                    slidesToScroll: 1
+                },
+
+            },
+            {
+                breakpoint: 450,
+                settings: {
+                    arrows: true,
+                    dots: false,
+                    slidesToShow: 1,
                     slidesToScroll: 1
                 },
 
@@ -58,9 +68,10 @@ $(document).ready(function(){
     $('#serviceSlider').slick({
         dots: true,
         arrows: false,
-        infinite: false,
+        infinite: true,
         speed: 300,
-        auto: true,
+        autoplay: true,
+        autoplaySpeed:[3000],
         slidesToShow: 4,
         slidesToScroll: 1,
         responsive: [
@@ -157,7 +168,8 @@ $(document).ready(function(){
         arrows: true,
         infinite: true,
         speed: 300,
-        auto: true,
+        autoplay: true,
+        autoplaySpeed:[6500],
         slidesToShow: 1,
         slidesToScroll: 1,
         responsive: [

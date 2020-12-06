@@ -1693,7 +1693,7 @@ ul.tt_services_pill li.active > a:before, ul.tt_services_pill li.active > a:hove
 }
 
 .services_details_holder {
-    min-height: 700px;
+    min-height: 500px;
     height: auto;
     background: #ffffff;
     border: none;
@@ -2438,7 +2438,42 @@ button.back_to_all_trends_btn:hover  {
 
 button.back_to_all_trends_btn:focus {color: #fff; background: #99CA3D;}
 
+.embed-responsive-16by9 {
+    padding-bottom: 44.25%;
+}
 
+ul.blog_checklist {
+    padding-left: 0;
+    padding-right: 24px;
+    margin-bottom: 12px;
+    padding-top: 22px;
+}
+
+ul.blog_checklist li {
+    list-style-type: none;
+    margin-bottom: 18px;
+    font-family: "Forza Light", sans-serif;
+    font-size: 1rem;
+    color: #666;
+    text-align: left;
+    min-height: 40px;
+    height: auto;
+}
+
+ul.blog_checklist li:before {
+    font-family: "Font Awesome 5 Free";
+    content: '\f058';
+    font-size: 1.2rem;
+    color: #03829B;
+    margin-right: 7px;
+}
+
+ul.blog_checklist li span {
+    margin-left: -24px;
+    left: 24px;
+    position: relative;
+    top: -2px;
+}
 
 
 

@@ -103,6 +103,10 @@
 
 @media screen and (max-width: 767px){
     .partner_slider_stripe {border-radius: 0; width: 100%;}
+
+    #partnerSlider > button.slick-prev {left: 14px;}
+    #partnerSlider > button.slick-next {right: 24px;}
+
 }
 
 @media screen and (max-width: 396px){
